@@ -7,8 +7,8 @@ export interface Props {
 const { title, subtitle, image } = Astro.props;
 ---
 
-<section class="hero">
+<section class="hero" data-sb-object-id="1">
+  <h1 data-sb-field-path="title">{title}</h1>
+  <p data-sb-field-path="subtitle">{subtitle}</p>
   <img src={image} alt="Hero image" />
-  <h1>{title}</h1>
-  <p>{subtitle}</p>
 </section>
