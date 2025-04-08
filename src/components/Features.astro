@@ -1,0 +1,18 @@
+---
+export interface Props {
+  features: Array<{ title: string; description: string }>;
+}
+const { features } = Astro.props;
+---
+
+<section class="features">
+  <h2>Features</h2>
+  <ul>
+    {features.map(feature => (
+      <li>
+        <h3>{feature.title}</h3>
+        <p>{feature.description}</p>
+      </li>
+    ))}
+  </ul>
+</section>

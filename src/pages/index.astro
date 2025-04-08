@@ -1,0 +1,29 @@
+---
+import Hero from '../components/Hero.astro';
+import Features from '../components/Features.astro';
+import Contact from '../components/Contact.astro';
+
+const heroProps = {
+  title: 'Welcome to Our Service',
+  subtitle: 'We offer the best solutions for your needs',
+  image: '/path-to-image.jpg', // Replace with an actual image path
+};
+
+const featuresProps = {
+  features: [
+    { title: 'Feature One', description: 'Description of feature one.' },
+    { title: 'Feature Two', description: 'Description of feature two.' },
+    { title: 'Feature Three', description: 'Description of feature three.' },
+  ],
+};
+
+const contactProps = {
+  email: 'contact@example.com',
+};
+---
+
+<main>
+  <Hero {...heroProps} />
+  <Features {...featuresProps} />
+  <Contact {...contactProps} />
+</main>

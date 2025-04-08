@@ -1,0 +1,34 @@
+{
+    "sections": [
+      {
+        "name": "hero",
+        "fields": [
+          { "name": "title", "type": "text" },
+          { "name": "subtitle", "type": "text" },
+          { "name": "image", "type": "image" }
+        ]
+      },
+      {
+        "name": "features",
+        "fields": [
+          {
+            "name": "features",
+            "type": "list",
+            "items": {
+              "type": "object",
+              "fields": [
+                { "name": "title", "type": "text" },
+                { "name": "description", "type": "text" }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "contact",
+        "fields": [
+          { "name": "email", "type": "text" }
+        ]
+      }
+    ]
+  }
