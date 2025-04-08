@@ -1,0 +1,30 @@
+/* src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background: #007bff;
+    color: white;
+  }
+  
+  .features {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+  }
